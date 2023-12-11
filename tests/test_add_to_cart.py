@@ -6,7 +6,7 @@ from pages.login_page import LoginPage
 
 
 @pytest.mark.usefixtures("setup_teardown")
-@pytest.mark.addtocart
+
 class TestCT02:
     @staticmethod
     def test_ct02_add_to_cart():
